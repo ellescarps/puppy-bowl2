@@ -1,0 +1,135 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.form {
+  display: flex;
+  color: rgb(223, 138, 225);
+  border: solid #e19026 4px;
+  background-color: pink;
+  padding: 10px;
+  font-size: larger;
+  
+}
+
+button {
+  color: green;
+  margin-left: 6px;
+}
+
+.main {
+  background-color: #f9ae4d;
+  color:rgb(106, 165, 106);
+  border-radius: 30%;
+  padding: 55px;
+}
+
+.pb{
+  background-color: pink;
+  border: solid 100px pink;
+  border-radius: 100px;
+}
+
+body {
+  background-color: rgb(212, 124, 174);
+}
+
+.space {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(168, 135, 222);
+  background-color: rgb(87, 198, 198);
+  padding: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: larger;
+ 
+}
+
+.container2 {
+  background-color: #c7b49c;
+  border: groove indigo;
+  border-width: 15px;
+  margin-top: 12px;
+}
+
+ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); 
+  gap: 2rem; 
+  justify-items: center; 
+}
+
+li {
+  background-color: #9cbf86;
+  border: 2px solid #6bc433; 
+  border-radius: 8px; 
+  text-align: center; 
+  margin-right: 33px;
+}
+
+.npf {
+  color:white;
+  font-weight: bolder;
+  font-variant: small-caps;
+  background-color: #22af5f;
+  border-radius: 166%;
+  padding: 10px;
+}
+
+.sp {
+  color: purple;
+  background-color: pink;
+  border-radius: 104%;
+  padding: 24px;
+  border-style: dashed;
+  margin:10px;
+}
+.personal {
+  color: white;
+  background-color: rgb(80, 21, 45);
+  padding: 47px;
+  padding-top: 13px;
+  border-radius: 10%;
+  margin: 10px;
+}
