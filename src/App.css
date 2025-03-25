@@ -57,18 +57,41 @@ button {
   margin-left: 6px;
 }
 
+
+@keyframes animate-main {
+  100% {
+    background-color: #f9ae4d;
+    transform: rotate(360deg);
+  }
+}
+
 .main {
   background-color: #f9ae4d;
   color:rgb(106, 165, 106);
   border-radius: 30%;
   padding: 55px;
+  animation: animate-main 19s infinite alternate;
 }
+
+@keyframes animate-pb {
+  100% {
+    background-color: pink;
+    transform: rotate(360deg);
+  }
+}
+
+
 
 .pb{
   background-color: pink;
   border: solid 100px pink;
   border-radius: 100px;
+  animation: animate-pb 6s infinite;
 }
+
+
+
+
 
 body {
   background-color: rgb(212, 124, 174);
